@@ -6,15 +6,12 @@ Fabrique Test Project
 
 ## Running the app
 
-* Edit .env file from example by adding database credentials
-* Just make sure that 80 port is able or change the nginx service exposed port
+* Edit `.env` file from example by adding database credentials
+* Just make sure that *80* port is able or change the nginx service exposed port
 ```bash
 
 $ docker-compose up -d --build
 
 ```
 
-##To see the swagger docs just go to [localhost/api/docs/](localhost:5000/api/docs/)
-
-## Support
-Telegram: _@kylych_
+## To see the swagger docs just go to [localhost/api/docs/](localhost/api/docs/)
